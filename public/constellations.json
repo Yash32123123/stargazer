@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Orion",
+        "stars": [
+            { "name": "Betelgeuse", "position": [1.0, 1.0, -1.5] },
+            { "name": "Rigel", "position": [-1.0, -0.5, -1.5] },
+            { "name": "Bellatrix", "position": [0.8, 1.0, -1.2] },
+            { "name": "Saiph", "position": [-1.5, 0.5, -2.5] },
+            { "name": "Mintaka", "position": [0.0, 0.0, -2.0] }
+        ]
+    },
+    {
+        "name": "Ursa Major",
+        "stars": [
+            { "name": "Dubhe", "position": [2.0, 1.0, -3.0] },
+            { "name": "Merak", "position": [-2.0, 0.0, -1.0] },
+            { "name": "Phecda", "position": [1.0, 0.5, -2.5] },
+            { "name": "Megrez", "position": [-1.5, 1.0, -2.0] },
+            { "name": "Alioth", "position": [1.5, 0.0, -3.0] },
+            { "name": "Mizar", "position": [0.5, 0.5, -3.5] },
+            { "name": "Alkaid", "position": [-1.0, -1.0, -2.5] }
+        ]
+    },
+    {
+        "name": "Cassiopeia",
+        "stars": [
+            { "name": "Schedar", "position": [1.0, 2.0, 2.5] },
+            { "name": "Caph", "position": [-2.0, 1.0, 2.0] },
+            { "name": "Gamma Cassiopeiae", "position": [0.5, 2.5, 3.5] },
+            { "name": "Ruchbah", "position": [1.5, 1.0, 1.5] },
+            { "name": "Navi", "position": [-1.5, 0.5, 1.0] }
+        ]
+    },
+    {
+        "name": "Taurus",
+        "stars": [
+            { "name": "Aldebaran", "position": [1.0, -1.0, -3.0] },
+            { "name": "Elnath", "position": [-1.0, 1.0, -2.0] },
+            { "name": "Beta Tauri", "position": [0.5, 0.0, -2.5] },
+            { "name": "Zeta Tauri", "position": [-0.5, -1.5, -2.0] },
+            { "name": "Theta Tauri", "position": [1.5, -2.0, -3.5] }
+        ]
+    },
+    {
+        "name": "Scorpius",
+        "stars": [
+            { "name": "Antares", "position": [1.0, -2.0, -3.0] },
+            { "name": "Shaula", "position": [-1.0, -1.0, -2.0] },
+            { "name": "Lesath", "position": [0.5, -2.5, -2.5] },
+            { "name": "Dschubba", "position": [-1.5, -1.5, -3.5] },
+            { "name": "Kaus Australis", "position": [2.0, -2.0, -4.0] }
+        ]
+    }
+]
