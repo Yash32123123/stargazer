@@ -1,0 +1,64 @@
+/* App.css */
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Prevent scrolling */
+    background-color: #001F3F; /* Dark blue background */
+    font-family: 'Roboto', sans-serif; /* Use the imported font */
+    color: white; /* Default text color */
+}
+
+h1, h2, h3 {
+    color: #FFD700; /* Gold color for headings */
+    text-align: center; /* Center align headings */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+form {
+    color: white; /* Set form text color */
+    text-align: center; /* Center align form */
+}
+
+input, button {
+    padding: 10px; /* Padding for inputs and buttons */
+    margin: 10px; /* Margin for spacing */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Increase font size */
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    color: #FFD700; /* Gold text for inputs */
+}
+
+button {
+    background-color: #FFD700; /* Gold background for buttons */
+    color: #001F3F; /* Dark blue text for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+button:hover {
+    background-color: #FFC300; /* Lighter gold on hover */
+}
+
+.container {
+    position: absolute; /* Change to absolute for full screen */
+    z-index: 1; /* Ensure content is above the canvas */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column layout */
+    align-items: center; /* Center align items */
+    justify-content: flex-start; /* Start align vertically */
+    height: 100%; /* Full height */
+    width: 100%; /* Full width */
+    pointer-events: none; /* Prevent events on the container */
+}
+
+form {
+    pointer-events: auto; /* Allow events on the form */
+    margin-top: 20px; /* Margin for spacing */
+}
